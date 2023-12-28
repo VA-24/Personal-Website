@@ -6,9 +6,9 @@ function Projects(){
 
     return(
         
-        <body class='bg-zinc-800'>
+        <body class='bg-neutral-800'>
             <div class='relative w-full flex flex-col items-center'>
-                <main class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl lg:flex-row-reverse gap-8 lg:gap-32 sticky top-0 px-6 py-8 bg-zinc-800'>
+                <main class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl lg:flex-row-reverse gap-8 lg:gap-32 sticky top-0 px-6 py-8 bg-neutral-800'>
                     <nav class='w-full flex flex-row items-center gap-32 justify-end'>
                         <a href='/projects'>
                         <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear'>
