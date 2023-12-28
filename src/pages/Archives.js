@@ -42,7 +42,7 @@ function Archives(){
             
             <section class='w-full text-center gap-12 px-6 pb-8 pt-12 z-[1]'>
                     <h1 class='text-xl xl:text-3xl font-medium text-neutral-100 mb-6'>My Blog/Ideaboard</h1>
-                    <p class='text-xl xl:text-xl font-medium text-neutral-300'>Here, you can find blog posts detailing trips I take or ideas I have. Inspired by MIT admissions' blog.</p>
+                    <p class='text-xl xl:text-xl font-medium text-neutral-300'>Inspired by MIT admissions' blog.</p>
             </section>
 
                     
@@ -58,7 +58,7 @@ function Archives(){
                 
                 <a href='/archives/winter-break-thoughts'>
                     <div class='relative justify-center border border-neutral-200 p-4 rounded-md mb-20 mx-20'>
-                            <h3 class='text-xl xl:text-xl font-small text-neutral-100'>First post</h3>
+                            <h3 class='text-xl xl:text-xl font-small text-neutral-100'>First Post</h3>
                             <p class='text-sm xl:text-base font-small text-neutral-400'>December 27th, 2023</p>
                             <p class='text-sm xl:text-base font-small text-neutral-400 mt-2'>random winter break thoughts</p>
                     </div>
