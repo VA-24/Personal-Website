@@ -1,8 +1,51 @@
-import React, { useState, useEffect} from 'react';
+import React, { useRef, useEffect} from 'react';
+import { useRaf } from 'react-use';
 import '../App.css';
 
 
-function Archives(){
+function HostedProjects(){
+
+    const labelRef = useRef();
+    const speed = useRef({ x: 5, y: 3 });
+    const direction = useRef({ x: 1, y: 1 });
+
+    useEffect(() => {
+        checkBoundary();
+    }, []); // Adds the initial bounding box sizes.
+
+    // Using the requestAnimationFrame hook from react-use.
+    useRaf(() => {
+        if (!labelRef.current) return;
+        let { x, y } = speed.current;
+        let newX = labelRef.current.offsetLeft + direction.current.x * x;
+        let newY = labelRef.current.offsetTop + direction.current.y * y;
+
+        labelRef.current.style.left = `${newX}px`;
+        labelRef.current.style.top = `${newY}px`;
+        checkBoundary();
+    });
+
+    const checkBoundary = () => {
+        if (!labelRef.current) return;
+        let { x, y } = speed.current;
+
+        // Check for right boundary
+        if (labelRef.current.offsetLeft + labelRef.current.offsetWidth > window.innerWidth) {
+            direction.current.x = -1;
+        } 
+        // Check for left boundary
+        else if (labelRef.current.offsetLeft < 0) {
+            direction.current.x = 1;
+        } 
+        // Check for bottom boundary
+        if (labelRef.current.offsetTop + labelRef.current.offsetHeight > window.innerHeight) {
+            direction.current.y = -1;
+        } 
+        // Check for top boundary
+        else if (labelRef.current.offsetTop < 0) {
+            direction.current.y = 1;
+        }
+    };
 
     return(
         <body class='bg-neutral-800 h-screen m-0'>
@@ -21,7 +64,7 @@ function Archives(){
                     </button>
                     </a>
 
-                    <a href='/hosted-projects'>
+                    <a href='/101scienceutopia'>
                     <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear transition [&>svg]:hover:rotate-45 [&>svg]:hover:translate-x-1'>
                         ‽
                     </button>
@@ -39,36 +82,11 @@ function Archives(){
                     </h1></a>
                 </main>
             </div>
-            
-            <section class='w-full text-center gap-12 px-6 pb-8 pt-12 z-[1]'>
-                    <h1 class='text-xl xl:text-3xl font-medium text-neutral-100 mb-6'>My Blog/Ideaboard</h1>
-                    <p class='text-xl xl:text-xl font-medium text-neutral-300'>Inspired by MIT admissions' blog.</p>
-            </section>
-
-                    
-            <section class='flex flex-wrap justify-left ml-40 mt-20'>
-
-            <a href='/archives/ideaboard-vol-1'>
-                    <div class='relative justify-center border border-neutral-200 p-4 rounded-md mb-20 mx-20'>
-                            <h3 class='text-xl xl:text-xl font-small text-neutral-100'>Ideaboard vol. 1</h3>
-                            <p class='text-sm xl:text-base font-small text-neutral-400'>December 28th, 2023</p>
-                            <p class='text-sm xl:text-base font-small text-neutral-400 mt-2'>the start of a long journey</p>
-                    </div>
-                </a>
-                
-                <a href='/archives/winter-break-thoughts'>
-                    <div class='relative justify-center border border-neutral-200 p-4 rounded-md mb-20 mx-20'>
-                            <h3 class='text-xl xl:text-xl font-small text-neutral-100'>First Post</h3>
-                            <p class='text-sm xl:text-base font-small text-neutral-400'>December 27th, 2023</p>
-                            <p class='text-sm xl:text-base font-small text-neutral-400 mt-2'>random winter break thoughts</p>
-                    </div>
-                </a>
-                    
-            </section>
-
-            
+            <h1 ref={labelRef} className="bounce" style={{ position: "absolute", left: 0, top: 0 }}>
+                projects coming soon!
+            </h1>
         </body>
     )
 }
 
-export default Archives;
+export default HostedProjects;

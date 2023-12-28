@@ -23,7 +23,7 @@ function Home(){
                     </button>
                     </a>
 
-                    <a href='/101scienceutopia'>
+                    <a href='/hosted-projects'>
                     <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear transition [&>svg]:hover:rotate-45 [&>svg]:hover:translate-x-1'>
                         ‽
                     </button>
