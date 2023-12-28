@@ -30,7 +30,15 @@ function Home(){
                     </a>
                 </nav>
 
-                <a href='/' class='flex-shrink-0'><h1 class='text-2xl lg:text-lg xl:text-2xl text-white font-semibold'>Vardhan Agnihotri</h1></a>
+                <a href='/' class='flex-shrink-0'>
+                    <h1 class='text-2xl lg:text-lg xl:text-2xl text-white font-semibold'>
+                    <img
+                            src={require("../assets/VA Logo.png")}
+                            alt="pfp"
+                            class='w-8'
+                             // Adjust the width as needed
+                        />
+                    </h1></a>
                 </main>
 
 
@@ -45,15 +53,15 @@ function Home(){
 
                     <div class='flex flex-col gap-8'>
                         <h3 class='text-xl xl:text-3xl font-medium text-neutral-100'>
-                            I'm interested in leveraging autonomous robotics to move toward a more <a class='text-green-300'>sustainable future</a>.
+                            Vardhan Agnihotri
                         </h3>
 
                         <p class='text-base xl:text-xl text-neutral-300'>
-                            Currently a high school senior at the St. Mark's School of Texas. Next year, I plan on attending the University of Pennsylvania, where I will obtain degrees in finance from the <a class='text-blue-300'>Wharton School of Business</a> and electrical engineering/computer science from the School of <a class='text-blue-300'>Engineering and Applied Science</a> through the M&T program.
+                            I'm currently a high school senior at the St. Mark's School of Texas. Next year, I plan on attending the University of Pennsylvania, where I will obtain degrees in finance from the <a class='text-blue-300'>Wharton School of Business</a> and electrical engineering/computer science from the <a class='text-blue-300'>School ofEngineering and Applied Science</a> through the M&T program.
                         </p>
 
                         <p class='text-base xl:text-xl text-neutral-300'>
-                            I'm interested in artificial intelligence, robotics, business, environmental engineering, data science, and startups. For fun, I enjoy coding, playing video games, binging Tom Brady highlights, and playing football with my friends. Above all, I value determination, passion, and perseverance.
+                            I'm interested in artificial intelligence, engineering, business, data science, and Startups. One day, I hope to leverage autonomous robotics and move toward a more <a class='text-green-300'>sustainable future</a>.
                         </p>
 
                         <p class='text-sm xl:text-base text-neutral-400'>

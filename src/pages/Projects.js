@@ -7,8 +7,8 @@ function Projects(){
     return(
         <body class='bg-neutral-800'>
             <div class='relative w-full flex flex-col items-center'>
-            <main class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl flex flex-col lg:flex-row-reverse gap-8 lg:gap-80 top-0 px-6 py-8 bg-neutral-800 z-[2]'>
-                <nav class='w-full flex flex-row items-center justify-between tracking-tight mt-4'>
+            <main class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl flex flex-col lg:flex-row-reverse gap-8 lg:gap-80 sticky top-0 px-6 py-8 bg-neutral-800 z-[3] mt-4'>
+                <nav class='w-full flex flex-row items-center justify-between tracking-tight'>
                     <a href='/projects'>
                     <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear transition [&>svg]:hover:rotate-45 [&>svg]:hover:translate-x-1'>
                         Projects
@@ -28,7 +28,15 @@ function Projects(){
                     </a>
                 </nav>
 
-                <a href='/' class='flex-shrink-0 mt-4'><h1 class='text-2xl lg:text-lg xl:text-2xl text-white font-semibold'>Vardhan Agnihotri</h1></a>
+                <a href='/' class='flex-shrink-0'>
+                    <h1 class='text-2xl lg:text-lg xl:text-2xl text-white font-semibold'>
+                    <img
+                            src={require("../assets/VA Logo.png")}
+                            alt="pfp"
+                            class='w-8'
+                             // Adjust the width as needed
+                        />
+                    </h1></a>
                 </main>
 
                 <section id='projects' class='w-full h-full flex flex-col items-center gap-1'>
