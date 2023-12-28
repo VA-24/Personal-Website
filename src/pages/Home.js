@@ -57,7 +57,7 @@ function Home(){
                         </h3>
 
                         <p class='text-base xl:text-xl text-neutral-300'>
-                            I'm currently a high school senior at the St. Mark's School of Texas. Next year, I plan on attending the University of Pennsylvania, where I will obtain degrees in finance from the <a class='text-blue-300'>Wharton School of Business</a> and electrical engineering/computer science from the <a class='text-blue-300'>School ofEngineering and Applied Science</a> through the M&T program.
+                            I'm currently a high school senior at the St. Mark's School of Texas. Next year, I plan on attending the University of Pennsylvania, where I will obtain degrees in finance from the <a class='text-blue-300'>Wharton School of Business</a> and electrical engineering/computer science from the <a class='text-blue-300'>School of Engineering and Applied Science</a> through the M&T program.
                         </p>
 
                         <p class='text-base xl:text-xl text-neutral-300'>
