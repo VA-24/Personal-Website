@@ -17,9 +17,9 @@ function Home(){
                     </button>
                     </a>
 
-                    <a href='/archive'>
+                    <a href='/archives'>
                     <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear transition [&>svg]:hover:rotate-45 [&>svg]:hover:translate-x-1'>
-                        Archive
+                        Archives
                     </button>
                     </a>
 
@@ -30,9 +30,11 @@ function Home(){
                     </a>
                 </nav>
 
-                <a href='/' a href='/' class='flex-shrink-0'><h1 class='text-2xl lg:text-lg xl:text-2xl text-white font-semibold'>Vardhan Agnihotri</h1></a>
+                <a href='/' class='flex-shrink-0'><h1 class='text-2xl lg:text-lg xl:text-2xl text-white font-semibold'>Vardhan Agnihotri</h1></a>
                 </main>
-                <section class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl flex flex-col justify-center lg:flex-row gap-12 px-6 pb-8 pt-12 z-[1]'>
+
+
+                <section class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl flex flex-col justify-center lg:flex-row gap-12 px-6 pb-8 pt-12 z-[1] border border-neutral-200 p-2 rounded-md mt-10'>
                     <div class='relative w-full h-[16vh] lg:w-[230px] lg:h-[220px] xl:w-[300px] xl:h-[430px] flex-shrink-0 shadow-lg shadow-neutral-700 overflow-hidden rounded-lg select-none ease-linear transition mt-1 [&>.shine]:hover:block'>
                         <img
                             src={require("../assets/vardhan.jpg")}
@@ -51,14 +53,14 @@ function Home(){
                         </p>
 
                         <p class='text-base xl:text-xl text-neutral-300'>
-                            I'm interested in artificial intelligence, robotics, business, environmental engineering, data science, and startups. For fun, I enjoy coding, playing video games with friends, binging Tom Brady highlights, and playing football with my friends. Above all, I value determination, passion, and perseverance.
+                            I'm interested in artificial intelligence, robotics, business, environmental engineering, data science, and startups. For fun, I enjoy coding, playing video games, binging Tom Brady highlights, and playing football with my friends. Above all, I value determination, passion, and perseverance.
                         </p>
 
                         <p class='text-sm xl:text-base text-neutral-400'>
-                            *Fun fact: this website's URL derives inspiration from the formula of the compound Silver Nitrate. It also sounds like my last name - Ag-NO-3!
+                            *This website's URL comes from the compound Silver Nitrate. It also sounds like my last name - Ag-NO-3!
                         </p>
 
-                        <div class='flex flex-row gap-5 justify-center'>
+                        <div class='flex flex-row gap-5 justify-center bt-3'>
                             <a href='https://www.linkedin.com/in/agno3/' target='_blank' rel='noopener noreferrer' class='-m-1'>
                                 <img
                                     src={require("../assets/linkedin.png")}

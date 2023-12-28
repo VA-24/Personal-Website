@@ -7,7 +7,7 @@ function Projects(){
     return(
         <body class='bg-neutral-800'>
             <div class='relative w-full flex flex-col items-center'>
-            <main class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl flex flex-col lg:flex-row-reverse gap-8 lg:gap-80 sticky top-0 px-6 py-8 bg-neutral-800 z-[2]'>
+            <main class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl flex flex-col lg:flex-row-reverse gap-8 lg:gap-80 top-0 px-6 py-8 bg-neutral-800 z-[2]'>
                 <nav class='w-full flex flex-row items-center justify-between tracking-tight mt-4'>
                     <a href='/projects'>
                     <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear transition [&>svg]:hover:rotate-45 [&>svg]:hover:translate-x-1'>
@@ -15,9 +15,9 @@ function Projects(){
                     </button>
                     </a>
 
-                    <a href='/archive'>
+                    <a href='/archives'>
                     <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear transition [&>svg]:hover:rotate-45 [&>svg]:hover:translate-x-1'>
-                        Archive
+                        Archives
                     </button>
                     </a>
 
@@ -138,19 +138,6 @@ function Projects(){
 
                 </a>
 
-                <a target='_blank' class='sticky z-[2] top-0 lg:top-32 [&>div>.shine]:hover:block w-full max-w-lg lg:max-w-3xl xl:max-w-6xl h-[60vh] lg:h-[75vh] lg:max-h-[600px] flex flex-col xl:flex-row justify-start gap-8 px-4 py-12 lg:px-6 xl:px-12 xl:py-24 bg-white rounded-xl' href='https://github.com/VA-24/ScibowlScrim-Backend'>
-                    <div class='flex flex-col gap-4'>
-                        <h3 class='font-medium text-xl xl:text-2xl 2xl:text-3xl text-black'>ScibowlScrim</h3>
-                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Developing a multiplayer scrimmage website for science bowlers by parsing and processing past questions. Currently a work in progress: FastAPI backend almost fully set up, frontend yet to be started.</p>
-                    </div>
-                    <div class='relative w-full h-[30vh] lg:h-[50vh] max-h-[400px] xl:w-2/3 flex-shrink-0 overflow-hidden rounded-md select-none shadow-lg shadow-neutral-500'>
-                        <img
-                                src={require("../assets/scibowlscrim.png")}
-                                alt="metrohacks"
-                            />
-                    </div>
-                </a>
-
                 <a target='_blank' class='sticky z-[2] top-0 lg:top-32 [&>div>.shine]:hover:block w-full max-w-lg lg:max-w-3xl xl:max-w-6xl h-[60vh] lg:h-[75vh] lg:max-h-[600px] flex flex-col xl:flex-row justify-start gap-8 px-4 py-12 lg:px-6 xl:px-12 xl:py-24 bg-white rounded-xl' href='/'>
                     <div class='flex flex-col gap-4'>
                         <h3 class='font-medium text-xl xl:text-2xl 2xl:text-3xl text-black'>agno3.me</h3>
@@ -180,78 +167,88 @@ function Projects(){
                     </div>
                 </a>
 
+                <a target='_blank' class='sticky z-[2] top-0 lg:top-32 [&>div>.shine]:hover:block w-full max-w-lg lg:max-w-3xl xl:max-w-6xl h-[60vh] lg:h-[75vh] lg:max-h-[600px] flex flex-col xl:flex-row justify-start gap-8 px-4 py-12 lg:px-6 xl:px-12 xl:py-24 bg-white rounded-xl' href='https://github.com/VA-24/ScibowlScrim-Backend'>
+                    <div class='flex flex-col gap-4'>
+                        <h3 class='font-medium text-xl xl:text-2xl 2xl:text-3xl text-black'>ScibowlScrim</h3>
+                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Developing a multiplayer scrimmage website for science bowlers by parsing and processing past questions. Currently a work in progress: FastAPI backend almost fully set up, frontend yet to be started.</p>
+                    </div>
+                    <div class='relative w-full h-[30vh] lg:h-[50vh] max-h-[400px] xl:w-2/3 flex-shrink-0 overflow-hidden rounded-md select-none shadow-lg shadow-neutral-500'>
+                        
+                    </div>
+                </a>
+
             </section>
 
             <section class='w-full h-full flex flex-col items-center gap-1'>
-                <div class='flex flex-wrap justify-center items-center gap-5 mt-3 mb-8 mx-8'>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>CAD</span>
+                <div class='flex flex-wrap justify-center items-center gap-5 mt-3 mb-8 mx-20'>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>CAD</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>Python</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>Python</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>Machine learning</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>Machine learning</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>C++</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>C++</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>UI/UX</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>UI/UX</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>HTML/CSS/Javascript</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>HTML/CSS/Javascript</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>Raspberry Pi</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>Raspberry Pi</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>TailwindCSS</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>TailwindCSS</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>React</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>React</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>FastAPI</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>FastAPI</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>NumPy</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>NumPy</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>R</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>R</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>LaTeX</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>LaTeX</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>Julia</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>Julia</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>DataFrames</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>DataFrames</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>Adobe Premiere Pro</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>Adobe Premiere Pro</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>Adobe Illustrator</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>Adobe Illustrator</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>Data Science</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>Data Science</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>Leadership</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>Leadership</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>Collaboration</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>Collaboration</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>Marketing</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>Marketing</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>Soldering</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>Soldering</span>
                     </p>
-                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
-                        <span class='text-md font-medium'>Circuitry</span>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>Circuitry</span>
                     </p>
                 </div>
             </section>
