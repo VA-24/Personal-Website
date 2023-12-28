@@ -9,30 +9,29 @@ function Home(){
         
         <body class='bg-neutral-800 h-screen m-0'>
             <div class='relative w-full flex flex-col items-center'>
-                <main class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl lg:flex-row-reverse gap-8 lg:gap-32 sticky top-0 px-6 py-8 bg-neutral-800'>
-                    <nav class='w-full flex flex-row items-center gap-32 justify-end'>
-                        <a href='/projects'>
-                        <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear'>
-                            Projects
-                        </button>
-                        </a>
+            <main class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl flex flex-col lg:flex-row-reverse gap-8 lg:gap-80 sticky top-0 px-6 py-8 bg-neutral-800 z-[2] mt-4'>
+                <nav class='w-full flex flex-row items-center justify-between tracking-tight'>
+                    <a href='/projects'>
+                    <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear transition [&>svg]:hover:rotate-45 [&>svg]:hover:translate-x-1'>
+                        Projects
+                    </button>
+                    </a>
 
-                        <a href='/archives'>
-                        <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear'>
-                            Archives
-                        </button>
-                        </a>
-                        
-                        <a href='/101scienceutopia'>
-                        <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear'>
-                            ‽
-                        </button>
-                        </a>
-                    </nav>
+                    <a href='/archive'>
+                    <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear transition [&>svg]:hover:rotate-45 [&>svg]:hover:translate-x-1'>
+                        Archive
+                    </button>
+                    </a>
 
-                    <h1 class='text-xl xl:text-4xl font-medium text-neutral-100 leading-tight mt-[-36px]'>Vardhan Agnihotri</h1>
+                    <a href='/101scienceutopia'>
+                    <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear transition [&>svg]:hover:rotate-45 [&>svg]:hover:translate-x-1'>
+                        ‽
+                    </button>
+                    </a>
+                </nav>
+
+                <a href='/' a href='/' class='flex-shrink-0'><h1 class='text-2xl lg:text-lg xl:text-2xl text-white font-semibold'>Vardhan Agnihotri</h1></a>
                 </main>
-
                 <section class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl flex flex-col justify-center lg:flex-row gap-12 px-6 pb-8 pt-12 z-[1]'>
                     <div class='relative w-full h-[16vh] lg:w-[230px] lg:h-[220px] xl:w-[300px] xl:h-[430px] flex-shrink-0 shadow-lg shadow-neutral-700 overflow-hidden rounded-lg select-none ease-linear transition mt-1 [&>.shine]:hover:block'>
                         <img

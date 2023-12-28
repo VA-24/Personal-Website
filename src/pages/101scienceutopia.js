@@ -8,7 +8,6 @@ function ScienceUtopia(){
         
         <body class='bg-neutral-800 h-screen m-0'>
            test
-
         </body>
     )
 }

@@ -5,29 +5,30 @@ import '../App.css';
 function Projects(){
 
     return(
-        
         <body class='bg-neutral-800'>
             <div class='relative w-full flex flex-col items-center'>
-                <main class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl lg:flex-row-reverse gap-8 lg:gap-32 sticky top-0 px-6 py-8 bg-neutral-800'>
-                    <nav class='w-full flex flex-row items-center gap-32 justify-end'>
-                        <a href='/projects'>
-                        <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear'>
-                            Projects
-                        </button>
-                        </a>
+            <main class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl flex flex-col lg:flex-row-reverse gap-8 lg:gap-80 sticky top-0 px-6 py-8 bg-neutral-800 z-[2]'>
+                <nav class='w-full flex flex-row items-center justify-between tracking-tight mt-4'>
+                    <a href='/projects'>
+                    <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear transition [&>svg]:hover:rotate-45 [&>svg]:hover:translate-x-1'>
+                        Projects
+                    </button>
+                    </a>
 
-                        <a href='/archives'>
-                        <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear'>
-                            Archives
-                        </button>
-                        </a>
+                    <a href='/archive'>
+                    <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear transition [&>svg]:hover:rotate-45 [&>svg]:hover:translate-x-1'>
+                        Archive
+                    </button>
+                    </a>
 
-                        <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear'>
-                            ‽
-                        </button>
-                    </nav>
+                    <a href='/101scienceutopia'>
+                    <button class='text-xs xl:text-lg flex items-center text-neutral-400 hover:text-white ease-linear transition [&>svg]:hover:rotate-45 [&>svg]:hover:translate-x-1'>
+                        ‽
+                    </button>
+                    </a>
+                </nav>
 
-                    <a href='/'><h1 class='text-xl xl:text-4xl font-medium text-neutral-100 leading-tight mt-[-36px]'>Vardhan Agnihotri</h1></a>
+                <a href='/' class='flex-shrink-0 mt-4'><h1 class='text-2xl lg:text-lg xl:text-2xl text-white font-semibold'>Vardhan Agnihotri</h1></a>
                 </main>
 
                 <section id='projects' class='w-full h-full flex flex-col items-center gap-1'>
@@ -166,7 +167,7 @@ function Projects(){
                 </a>
 
 
-                <a target='_blank' class='sticky z-[2] top-0 lg:top-32 [&>div>.shine]:hover:block w-full max-w-lg lg:max-w-3xl xl:max-w-6xl h-[60vh] lg:h-[75vh] lg:max-h-[600px] flex flex-col xl:flex-row justify-start gap-8 px-4 py-12 lg:px-6 xl:px-12 xl:py-24 bg-white rounded-xl' href='https://pavedai.tech/'>
+                <a target='_blank' class='sticky z-[2] top-0 lg:top-32 [&>div>.shine]:hover:block w-full max-w-lg lg:max-w-3xl xl:max-w-6xl h-[60vh] lg:h-[75vh] lg:max-h-[600px] flex flex-col xl:flex-row justify-start gap-8 px-4 py-12 lg:px-6 xl:px-12 xl:py-24 bg-white rounded-xl' href='https://github.com/VA-24/Random-Projects'>
                     <div class='flex flex-col gap-4'>
                         <h3 class='font-medium text-xl xl:text-2xl 2xl:text-3xl text-black'>Miscellaneous Projects</h3>
                         <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Worked on dozens of projects ranging from a speedtyping bot to a personalized voice assistant to an AI that plays the game Snake. </p>
@@ -180,11 +181,84 @@ function Projects(){
                 </a>
 
             </section>
+
+            <section class='w-full h-full flex flex-col items-center gap-1'>
+                <div class='flex flex-wrap justify-center items-center gap-5 mt-3 mb-8 mx-8'>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>CAD</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>Python</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>Machine learning</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>C++</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>UI/UX</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>HTML/CSS/Javascript</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>Raspberry Pi</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>TailwindCSS</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>React</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>FastAPI</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>NumPy</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>R</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>LaTeX</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>Julia</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>DataFrames</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>Adobe Premiere Pro</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>Adobe Illustrator</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>Data Science</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>Leadership</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>Collaboration</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>Marketing</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>Soldering</span>
+                    </p>
+                    <p class='bg-gray-200 p-2 rounded-md mt-4'>
+                        <span class='text-md font-medium'>Circuitry</span>
+                    </p>
+                </div>
+            </section>
             </div>
 
             
             
-
         </body>
     )
 }
