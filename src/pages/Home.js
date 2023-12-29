@@ -104,14 +104,7 @@ function Home(){
                                 />
                             </a>
 
-                            <a href='https://www.instagram.com/agno_three/' target='_blank' rel='noopener noreferrer' class='-m-1'>
-                                <img
-                                    src={require("../assets/instagram.png")}
-                                    alt="instagram"
-                                    class='w-8'
-                                    
-                                />
-                            </a>
+                            
                         </div>
                     </div>
                 </section>   
