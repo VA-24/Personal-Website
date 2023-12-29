@@ -65,7 +65,7 @@ function Home(){
                         </p>
 
                         <p class='text-sm xl:text-base text-neutral-400'>
-                            *This website's URL comes from the compound Silver Nitrate. It also sounds like my last name - Ag-NO-3!
+                            *This website's URL comes from the compound Silver Nitrate. It also sounds like my last name.
                         </p>
 
                         <div class='flex flex-row gap-5 justify-center bt-3'>
