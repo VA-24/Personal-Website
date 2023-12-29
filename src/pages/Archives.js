@@ -63,20 +63,7 @@ function Archives(){
                             <p class='text-sm xl:text-base font-small text-neutral-400 mt-2'>random winter break thoughts</p>
                     </div>
                 </a>
-                <a href='/archives/winter-break-thoughts'>
-                    <div class='relative justify-center border border-neutral-200 p-4 rounded-md mb-20 mx-20'>
-                            <h3 class='text-xl xl:text-xl font-small text-neutral-100'>First Post</h3>
-                            <p class='text-sm xl:text-base font-small text-neutral-400'>December 27th, 2023</p>
-                            <p class='text-sm xl:text-base font-small text-neutral-400 mt-2'>random winter break thoughts</p>
-                    </div>
-                </a>
-                <a href='/archives/winter-break-thoughts'>
-                    <div class='relative justify-center border border-neutral-200 p-4 rounded-md mb-20 mx-20'>
-                            <h3 class='text-xl xl:text-xl font-small text-neutral-100'>First Post</h3>
-                            <p class='text-sm xl:text-base font-small text-neutral-400'>December 27th, 2023</p>
-                            <p class='text-sm xl:text-base font-small text-neutral-400 mt-2'>random winter break thoughts</p>
-                    </div>
-                </a>
+                
                     
             </section>
 
