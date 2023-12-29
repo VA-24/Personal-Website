@@ -7,7 +7,7 @@ function Home(){
 
     return(
         
-        <body class='bg-neutral-800 h-screen m-0'>
+        <body class='bg-neutral-800'>
             <div class='relative w-full flex flex-col items-center'>
             <main class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl flex flex-col lg:flex-row-reverse gap-8 lg:gap-80 sticky top-0 px-6 py-8 bg-neutral-800 z-[2] mt-4'>
                 <nav class='w-full flex flex-row items-center justify-between tracking-tight'>
