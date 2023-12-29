@@ -91,7 +91,7 @@ function BLOGwinterbreakthoughts(){
 
                     <p class='text-sm xl:text-base text-neutral-100 font-small mb-10'>
                         Regardless of what I do in the upcoming week, I'm eagerly anticipating the impending school year.
-                        I hope to use the ensuing months as a time for relative relaxation (although I can't let my grades drop, since Penn won't like that!),
+                        I hope to use the ensuing months as a time for relative relaxation (although I can't let my grades drop, since Penn probably won't like that),
                         and I'm sure that reflecting on my experiences and thoughts in this blog will allow me to reflect meaningfully on the weeks ahead.
                     </p>
 
