@@ -54,7 +54,7 @@ function BLOGwinterbreakthoughts(){
                     </p>
 
                     <ol class='text-sm xl:text-base text-neutral-100 font-small'>
-                        <li class='mb-3 pl-5'>- I spent the first few days chilling (listened to a bunch of Tom Brady videos, went on a couple of walks, ate, some nice food with friends, etc).</li>
+                        <li class='mb-3 pl-5'>- I spent the first few days chilling (listened to a bunch of Tom Brady videos, went on a couple of walks, ate some nice food with friends, etc).</li>
 
                         <img
                             src={require("../assets/blog-post-pictures/bp1p1.jpg")}
@@ -77,22 +77,22 @@ function BLOGwinterbreakthoughts(){
                                 match we won.
                             </p>
 
-                        <li class='mb-3 pl-5'>- I then started going through a chemistry textbook and past chemistry/physics olympiad questions as a part of my never-ending quest to make the semifinal stage of both olympiads.</li>
+                        <li class='mb-3 pl-5'>- I then started going through a chemistry textbook and past chemistry/physics olympiad questions as a part of my never-ending quest to make the semifinal stage of both contests.</li>
                         <li class='mb-3 pl-5'>- I also got back into cubing. I'll write about this in another blog post.</li>
-                        <li class='mb-3 pl-5'>- That brings us to yesterday, when I decided to start work on my personal website. I figured it was a good idea to make 
-                            since many say it's a good tool to use to showcase your achievements and projects. I also wanted to make this website as an excuse to learn TailwindCSS,
+                        <li class='mb-3 pl-5'>- That brings us to yesterday, when I decided to start work on my personal website. I figured it was a good idea to build
+                            since many say an online portfolio is a good tool to use to showcase your achievements and projects. I also wanted to make this website as an excuse to learn TailwindCSS,
                             a task I've been putting off for far too long now. </li>
                     </ol>
 
                     <p class='text-sm xl:text-base text-neutral-100 font-small'>
                         All this leaves me with about a week left of break, time which I don't know how to spend. I might put in a bit more 
-                        work on ScibowlScrim, my latest project that's currently still a work-in-progress or I might just continue to work on this website. I'm not so sure.
+                        work on ScibowlScrim, my latest project that's currently still a work-in-progress, or I might just continue to work on this website. I'm not so sure.
                     </p>
 
                     <p class='text-sm xl:text-base text-neutral-100 font-small mb-10'>
-                        Regardless of what I do in the upcoming week, I know for certain I'm excited for the rest of the school year to come.
+                        Regardless of what I do in the upcoming week, I'm eagerly anticipating the impending school year.
                         I hope to use the ensuing months as a time for relative relaxation (although I can't let my grades drop, since Penn won't like that!),
-                        and I'm sure that reflecting on my experiences and thoughts in this blog will allow me to fulfill my goal in the weeks ahead.
+                        and I'm sure that reflecting on my experiences and thoughts in this blog will allow me to reflect meaningfully on the weeks ahead.
                     </p>
 
                 </section>
