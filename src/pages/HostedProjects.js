@@ -4,14 +4,16 @@ function HostedProjects() {
   const textRef = useRef();
 
   useEffect(() => {
-    let dx = 2; // Initial direction for X
-    let dy = -2; // Initial direction for Y
+    let dx = 2;
+    let dy = -2; // initial directions
     let x = 0;
     let y = 101;
+    let var_x = 10;
+    // change var_x to adjust for longer text
     function animate() {
       const textWidth = textRef.current.offsetWidth;
       const textHeight = textRef.current.offsetHeight;
-      if (x + dx > window.innerWidth - textWidth - 1 || x + dx < 0) {
+      if (x + dx > window.innerWidth - textWidth - var_x || x + dx < 0) {
         dx = -dx;
       }
       if (y + dy > window.innerHeight - textHeight - 1 || y + dy < 100) {
@@ -63,13 +65,15 @@ function HostedProjects() {
 
                 <div style={{ height: '1px', width: '100%', background: 'white', position: 'absolute', top: '98px' }}></div>
 
+            <a href='/hosted-projects/scibowlscrim'>
                 <h1
                 ref={textRef}
                 style={{ position: "absolute", top: 0, left: 0, color: "white" }}
                 className="translate"
                 >
-                Projects coming soon
+                  Projects coming soon, but for now, click me to look at the ScibowlScrim frontend skeleton!
                 </h1>
+              </a>
             </div>
 
         </body>
