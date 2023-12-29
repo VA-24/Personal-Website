@@ -82,7 +82,7 @@ function Projects(){
                 <a target='_blank' class='sticky z-[2] top-0 lg:top-32 [&>div>.shine]:hover:block w-full max-w-lg lg:max-w-3xl xl:max-w-6xl h-[60vh] lg:h-[75vh] lg:max-h-[600px] flex flex-col xl:flex-row justify-start gap-8 px-4 py-12 lg:px-6 xl:px-12 xl:py-24 bg-white rounded-xl' href='https://opho.physoly.tech/'>
                     <div class='flex flex-col gap-4'>
                         <h3 class='font-medium text-xl xl:text-2xl 2xl:text-3xl text-black'>Online Physics Olympiad</h3>
-                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Hosted an international physics contest with 5,000+ hackers from 50+ countries and $10,000+ in sponsorships.</p>
+                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Hosted an international physics contest with 5,000+ competitors from 50+ countries and $10,000+ in sponsorships.</p>
                     </div>
                     <div class='relative w-full h-[28vh] lg:h-[50vh] max-h-[380px] xl:w-2/3 flex-shrink-0 overflow-hidden rounded-md select-none shadow-lg shadow-neutral-500'>
                     <img
