@@ -42,7 +42,7 @@ function Home(){
                 </main>
 
 
-                <section class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl flex flex-col justify-center lg:flex-row gap-12 px-6 pb-8 pt-12 z-[1] border border-neutral-200 p-2 rounded-md mt-10'>
+                <section class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl flex flex-col justify-center lg:flex-row gap-12 px-6 pb-8 pt-12 z-[1] border border-neutral-200 p-2 rounded-md mt-10 mb-3'>
                     <div class='relative w-full h-[16vh] lg:w-[230px] lg:h-[220px] xl:w-[300px] xl:h-[430px] flex-shrink-0 shadow-lg shadow-neutral-700 overflow-hidden rounded-lg select-none ease-linear transition mt-1 [&>.shine]:hover:block'>
                         <img
                             src={require("../assets/vardhan.jpg")}
