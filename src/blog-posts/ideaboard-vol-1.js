@@ -61,7 +61,7 @@ function BLOGideaboard1(){
                     </p>
 
                     <p class='text-sm xl:text-base text-neutral-100 font-small'>
-                        This new website could start off simple but could eventually scale to a platform upon which global cubing events could be hosted.
+                        This will start off simple but could eventually scale to a platform upon which global cubing events could be hosted.
                         I think it would be best for me to start small, though, as I've never really dabbled in the world of websockets (a component which I'm guessing
                         will be essential for CoCube).
                     </p>

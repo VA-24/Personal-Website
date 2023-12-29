@@ -61,7 +61,7 @@ function Home(){
                         </p>
 
                         <p class='text-base xl:text-xl text-neutral-300'>
-                            I'm interested in artificial intelligence, engineering, business, data science, and Startups. One day, I hope to leverage autonomous robotics and move toward a more <a class='text-green-300'>sustainable future</a>.
+                            I'm interested in artificial intelligence, engineering, business, data science, and startups. One day, I hope to leverage autonomous robotics and move toward a more <a class='text-green-300'>sustainable future</a>.
                         </p>
 
                         <p class='text-sm xl:text-base text-neutral-400'>
