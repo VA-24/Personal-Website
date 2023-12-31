@@ -149,7 +149,7 @@ function Projects(){
                 <a target='_blank' class='sticky z-[2] top-0 lg:top-32 [&>div>.shine]:hover:block w-full max-w-lg lg:max-w-3xl xl:max-w-6xl h-[60vh] lg:h-[75vh] lg:max-h-[600px] flex flex-col xl:flex-row justify-start gap-8 px-4 py-12 lg:px-6 xl:px-12 xl:py-24 bg-white rounded-xl' href='/'>
                     <div class='flex flex-col gap-4'>
                         <h3 class='font-medium text-xl xl:text-2xl 2xl:text-3xl text-black'>agno3.me</h3>
-                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Designed and built custom portfolio website with React.js and TailwindCSS.</p>
+                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Designed and built custom portfolio website with React and TailwindCSS.</p>
                     </div>
                     <div class='relative w-full h-[28vh] lg:h-[50vh] max-h-[378px] xl:w-2/3 flex-shrink-0 overflow-hidden rounded-md select-none shadow-lg shadow-neutral-500'>
                         <img
@@ -175,10 +175,10 @@ function Projects(){
                     </div>
                 </a>
 
-                <a target='_blank' class='sticky z-[2] top-0 lg:top-32 [&>div>.shine]:hover:block w-full max-w-lg lg:max-w-3xl xl:max-w-6xl h-[60vh] lg:h-[75vh] lg:max-h-[600px] flex flex-col xl:flex-row justify-start gap-8 px-4 py-12 lg:px-6 xl:px-12 xl:py-24 bg-white rounded-xl' href='https://github.com/VA-24/ScibowlScrim-Backend'>
+                <a target='_blank' class='sticky z-[2] top-0 lg:top-32 [&>div>.shine]:hover:block w-full max-w-lg lg:max-w-3xl xl:max-w-6xl h-[60vh] lg:h-[75vh] lg:max-h-[600px] flex flex-col xl:flex-row justify-start gap-8 px-4 py-12 lg:px-6 xl:px-12 xl:py-24 bg-white rounded-xl' href='https://scibowlscrim.agno3.me'>
                     <div class='flex flex-col gap-4'>
                         <h3 class='font-medium text-xl xl:text-2xl 2xl:text-3xl text-black'>ScibowlScrim</h3>
-                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Developing a multiplayer scrimmage website for science bowlers by parsing and processing past questions. Currently a work in progress: FastAPI backend almost fully set up, frontend yet to be started.</p>
+                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Developing a multiplayer scrimmage website for science bowlers. Made with Firebase, React, TailwindCSS, and Python (used for parsing past packets).</p>
                     </div>
                     <div class='relative w-full h-[30vh] lg:h-[50vh] max-h-[400px] xl:w-2/3 flex-shrink-0 overflow-hidden rounded-md select-none shadow-lg shadow-neutral-500'>
                         
