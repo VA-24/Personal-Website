@@ -65,7 +65,7 @@ function HostedProjects() {
 
                 <div style={{ height: '1px', width: '100%', background: 'white', position: 'absolute', top: '98px' }}></div>
 
-            <a href='scibowlscrim.agno3.me'>
+            <a href='https://scibowlscrim.agno3.me'>
                 <h1
                 ref={textRef}
                 style={{ position: "absolute", top: 0, left: 0, color: "white" }}
