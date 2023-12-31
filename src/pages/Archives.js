@@ -61,7 +61,7 @@ function Archives(){
                         <div class='relative justify-center border border-neutral-200 p-4 rounded-md mb-20 mx-20'>
                                 <h3 class='text-xl xl:text-xl font-small text-neutral-100'>Ideaboard vol. 1</h3>
                                 <p class='text-sm xl:text-base font-small text-neutral-400'>December 28th, 2023</p>
-                                <p class='text-sm xl:text-base font-small text-neutral-400 mt-2'>the start of a long journey</p>
+                                <p class='text-sm xl:text-base font-small text-neutral-400 mt-2'>my first ideaboard</p>
                         </div>
                     </a>
                     
