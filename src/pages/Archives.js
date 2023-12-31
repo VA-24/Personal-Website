@@ -48,24 +48,30 @@ function Archives(){
                     
             <section class='flex flex-wrap justify-center mx-auto w-2/3 mt-20'>
 
-            <a href='/archives/ideaboard-vol-1'>
-                    <div class='relative justify-center border border-neutral-200 p-4 rounded-md mb-20 mx-20'>
-                            <h3 class='text-xl xl:text-xl font-small text-neutral-100'>Ideaboard vol. 1</h3>
-                            <p class='text-sm xl:text-base font-small text-neutral-400'>December 28th, 2023</p>
-                            <p class='text-sm xl:text-base font-small text-neutral-400 mt-2'>the start of a long journey</p>
-                    </div>
-                </a>
-                
-                <a href='/archives/winter-break-thoughts'>
-                    <div class='relative justify-center border border-neutral-200 p-4 rounded-md mb-20 mx-20'>
-                            <h3 class='text-xl xl:text-xl font-small text-neutral-100'>First Post</h3>
-                            <p class='text-sm xl:text-base font-small text-neutral-400'>December 27th, 2023</p>
-                            <p class='text-sm xl:text-base font-small text-neutral-400 mt-2'>random winter break thoughts</p>
-                    </div>
-                </a>
+                <a href='/archives/boredom'>
+                        <div class='relative justify-center border border-neutral-200 p-4 rounded-md mb-20 mx-20'>
+                                <h3 class='text-xl xl:text-xl font-small text-neutral-100'>Boredom</h3>
+                                <p class='text-sm xl:text-base font-small text-neutral-400'>December 30th, 2023</p>
+                                <p class='text-sm xl:text-base font-small text-neutral-400 mt-2'>detailing my cubing journey</p>
+                        </div>
+                    </a>
 
                 
-                
+                <a href='/archives/ideaboard-vol-1'>
+                        <div class='relative justify-center border border-neutral-200 p-4 rounded-md mb-20 mx-20'>
+                                <h3 class='text-xl xl:text-xl font-small text-neutral-100'>Ideaboard vol. 1</h3>
+                                <p class='text-sm xl:text-base font-small text-neutral-400'>December 28th, 2023</p>
+                                <p class='text-sm xl:text-base font-small text-neutral-400 mt-2'>the start of a long journey</p>
+                        </div>
+                    </a>
+                    
+                    <a href='/archives/winter-break-thoughts'>
+                        <div class='relative justify-center border border-neutral-200 p-4 rounded-md mb-20 mx-20'>
+                                <h3 class='text-xl xl:text-xl font-small text-neutral-100'>First Post</h3>
+                                <p class='text-sm xl:text-base font-small text-neutral-400'>December 27th, 2023</p>
+                                <p class='text-sm xl:text-base font-small text-neutral-400 mt-2'>random winter break thoughts</p>
+                        </div>
+                    </a>
                     
             </section>
 
