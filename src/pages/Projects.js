@@ -244,6 +244,21 @@ function Projects(){
                         <span class='text-md font-small text-white'>Data Science</span>
                     </p>
                     <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>Cloud Computing</span>
+                    </p>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>Firebase</span>
+                    </p>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>PostgreSQL</span>
+                    </p>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>Soldering</span>
+                    </p>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>Circuitry</span>
+                    </p>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
                         <span class='text-md font-small text-white'>Leadership</span>
                     </p>
                     <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
@@ -251,12 +266,6 @@ function Projects(){
                     </p>
                     <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
                         <span class='text-md font-small text-white'>Marketing</span>
-                    </p>
-                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
-                        <span class='text-md font-small text-white'>Soldering</span>
-                    </p>
-                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
-                        <span class='text-md font-small text-white'>Circuitry</span>
                     </p>
                 </div>
             </section>
