@@ -181,7 +181,10 @@ function Projects(){
                         <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Developing a multiplayer scrimmage website for science bowlers. Made with Firebase, React, TailwindCSS, and Python (used for parsing past packets).</p>
                     </div>
                     <div class='relative w-full h-[30vh] lg:h-[50vh] max-h-[400px] xl:w-2/3 flex-shrink-0 overflow-hidden rounded-md select-none shadow-lg shadow-neutral-500'>
-                        
+                    <img
+                                src={require("../assets/scibowlscrim.png")}
+                                alt="metrohacks"
+                            />
                     </div>
                 </a>
 
