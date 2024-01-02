@@ -202,6 +202,9 @@ function Projects(){
                         <span class='text-md font-small text-white'>Machine learning</span>
                     </p>
                     <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
+                        <span class='text-md font-small text-white'>PyTorch</span>
+                    </p>
+                    <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
                         <span class='text-md font-small text-white'>C++</span>
                     </p>
                     <p class='border border-neutral-200 p-2 rounded-md p-2 rounded-md mt-4'>
