@@ -48,6 +48,14 @@ function Archives(){
                     
             <section class='flex flex-wrap justify-center mx-auto w-2/3 mt-20'>
 
+            <a href='/archives/ideaboard-vol-2'>
+                        <div class='relative justify-center border border-neutral-200 p-4 rounded-md mb-20 mx-20'>
+                                <h3 class='text-xl xl:text-xl font-small text-neutral-100'>Ideaboard vol. 2</h3>
+                                <p class='text-sm xl:text-base font-small text-neutral-400'>February 11th, 2024</p>
+                                <p class='text-sm xl:text-base font-small text-neutral-400 mt-2'>my second ideaboard entry</p>
+                        </div>
+                    </a>
+
                 <a href='/archives/boredom'>
                         <div class='relative justify-center border border-neutral-200 p-4 rounded-md mb-20 mx-20'>
                                 <h3 class='text-xl xl:text-xl font-small text-neutral-100'>Boredom</h3>
@@ -61,7 +69,7 @@ function Archives(){
                         <div class='relative justify-center border border-neutral-200 p-4 rounded-md mb-20 mx-20'>
                                 <h3 class='text-xl xl:text-xl font-small text-neutral-100'>Ideaboard vol. 1</h3>
                                 <p class='text-sm xl:text-base font-small text-neutral-400'>December 28th, 2023</p>
-                                <p class='text-sm xl:text-base font-small text-neutral-400 mt-2'>my first ideaboard</p>
+                                <p class='text-sm xl:text-base font-small text-neutral-400 mt-2'>my first ideaboard entry</p>
                         </div>
                     </a>
                     

@@ -2,7 +2,7 @@ import React, { useState, useEffect} from 'react';
 import '../App.css';
 
 
-function BLOGideaboard1(){
+function BLOGideaboard2(){
 
     return(
         
@@ -41,41 +41,48 @@ function BLOGideaboard1(){
                 </main>
 
                 <section class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl justify-left flex flex-col gap-3 px-6 pb-10 pt-8 z-[1]'>
-                    <h1 class='text-4xl lg:text-lg xl:text-4xl text-white font-semibold'>Ideaboard vol. 1</h1>
-                    <p class='text-sm xl:text-base text-neutral-400'>first ideaboard</p>
-                    <p class='text-sm xl:text-base text-neutral-400'>Dec 28, 2023</p>
+                    <h1 class='text-4xl lg:text-lg xl:text-4xl text-white font-semibold'>Ideaboard vol. 2</h1>
+                    <p class='text-sm xl:text-base text-neutral-400'>second ideaboard entry</p>
+                    <p class='text-sm xl:text-base text-neutral-400'>Feb 11, 2024</p>
                     <div class='border-t'></div>
                     
                 </section>
 
                 <section class='w-full max-w-lg lg:max-w-3xl xl:max-w-6xl justify-left flex flex-col gap-6 px-6 z-[1]'>
                     <p class='text-sm xl:text-base text-neutral-100 font-small'>
-                        This is my ideaboard. I want it to be a form of continuous documentation of random technological ideas that pop 
-                        into my head, but who knows what it'll turn out to be.
+                        I'm a lazy person.
                     </p>
 
                     <p class='text-sm xl:text-base text-neutral-100 font-small'>
-                        We'll start this first ideaboard off with my latest idea: a website that lets users race to see who can solve a cube the fastest
-                        given the exact same scramble (thinking of calling the app "CoCube"). Although many cube timers already exist, none to my knowledge allow users to enter races against their friends
-                        or random people from across the world.
+                        After getting up, I often lay on my bed in the darkness of my room, too lazy to turn my lights on. In the summers, 
+                        I find myself too lazy to turn off or adjust the temperature of my room's AC unit. Laziness, unfortunately, is a common theme
+                        that pervades much of my life.
                     </p>
 
                     <p class='text-sm xl:text-base text-neutral-100 font-small'>
-                        This will start off simple but could eventually scale to a platform upon which global cubing events could be hosted.
-                        I think it would be best for me to start small, though, as I've never really dabbled in the world of websockets (a component which I'm guessing
-                        will be essential for CoCube).
+                        I already have an Amazon Echo Show in my room, so why not couple it with some homemade electronics to alleviate my problems? I could
+                        start by developing my own Alexa command to control an Arduino Uno and a motor capable of turning my room's light switch on and off. Later on,
+                        I would probably move to using a Raspberry Pi Zero for regulating my room's temperature.
                     </p>
 
                     <p class='text-sm xl:text-base text-neutral-100 font-small'>
-                        As for hosting, I think it would be best for CoCube to live on this website under the mysterious "‽" tab you see 
-                        on the top right of your screen. In the future, I hope to post later projects to this same space.
+                        I'm looking forward to starting this project not only since I don't have much else to do right now but also because it would
+                        allow me to 3D print my own designs for the first time. For my startup PavedAI, most of the CAD for the robot is done by my partner, and 
+                        although I have input on the designs of our components/drivetrain, I don't do any of the 3D modeling itself. Additionally, I would get to further
+                        hone my skills with microcontrollers and sensors - devices I've worked with before in past research and projects.
+
+                    </p>
+
+                    <p class='text-sm xl:text-base text-neutral-100 font-small'>
+                        I think I'll name it "AC²L:" Alexa-Controlled AC and Lights (AC x ACL = AC²L).
                     </p>
 
 
                     <ol class='text-sm xl:text-base text-neutral-100 font-small'>
-                        <li>Current items on the ideaboard:</li>
-                        <li class='mb-3 pl-5'>- ScibowlScrim singleplayer/multiplayer</li>
-                        <li class='mb-3 pl-5'>- CoCube (first new entry 🥳)</li>
+                        <li class='mb-3'>Current items on the ideaboard:</li>
+                        <li class='mb-3 pl-5'>- ScibowlScrim multiplayer (singleplayer already complete)</li>
+                        <li class='mb-3 pl-5'>- CoCube (will start after learning how to work with websockets from building ScibowlScrim multiplayer)</li>
+                        <li class='mb-3 pl-5'>-  AC²L</li>
                     </ol>
 
                 </section>
@@ -86,4 +93,4 @@ function BLOGideaboard1(){
     )
 }
 
-export default BLOGideaboard1;
+export default BLOGideaboard2;
