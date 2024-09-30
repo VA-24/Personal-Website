@@ -57,11 +57,11 @@ function Home(){
                         </h3>
 
                         <p class='text-base xl:text-xl text-neutral-300'>
-                            I'm currently a high school senior at the St. Mark's School of Texas. Next year, I plan on attending the University of Pennsylvania, where I will obtain degrees in finance from the <a class='text-blue-300'>Wharton School of Business</a> and electrical engineering/computer science from the <a class='text-blue-300'>School of Engineering and Applied Science</a> through the M&T program.
+                            I'm currently a freshman at the University of Pennsylvania pursuing dual degrees in Finance from the Wharton School of Business and Electrical Engineering from the School of Engineering and Applied Sciences through the M&T program.
                         </p>
 
                         <p class='text-base xl:text-xl text-neutral-300'>
-                            I'm interested in artificial intelligence, engineering, business, data science, and startups. One day, I hope to leverage autonomous robotics and move toward a more <a class='text-green-300'>sustainable future</a>.
+                            I'm interested in artificial intelligence, engineering, business, data science, venture capital, and startups. One day, I hope to leverage autonomous robotics and move toward a more <a class='text-green-300'>sustainable future</a>.
                         </p>
 
                         <p class='text-sm xl:text-base text-neutral-400'>
