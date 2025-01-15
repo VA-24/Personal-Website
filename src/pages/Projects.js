@@ -43,7 +43,7 @@ function Projects(){
                 <a target='_blank' class='sticky z-[2] top-0 lg:top-32 [&>div>.shine]:hover:block w-full max-w-lg lg:max-w-3xl xl:max-w-6xl h-[60vh] lg:h-[75vh] lg:max-h-[600px] flex flex-col xl:flex-row justify-start gap-8 px-4 py-12 lg:px-6 xl:px-12 xl:py-24 mt-8 bg-white rounded-xl' href='https://pavedai.tech/'>
                     <div class='flex flex-col gap-4'>
                         <h3 class='font-medium text-xl xl:text-2xl 2xl:text-3xl text-black'>PavedAI</h3>
-                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Developing a fully-autonomous robot capable of filling cracks in concrete + continuing to secure funding for the endeavor ($11,000 already secured).</p>
+                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Developing a fully-autonomous robot capable of filling cracks in concrete (using Raspberry Pi + other micrcontrollers and real-time CV based on models trained with CNNs) + continuing to secure funding for the endeavor ($11,000 already secured).</p>
                     </div>
                     <div class='relative w-full h-[28vh] lg:h-[50vh] max-h-[380px] xl:w-2/3 flex-shrink-0 overflow-hidden rounded-md select-none shadow-lg shadow-neutral-500'>
                     <img
@@ -56,7 +56,7 @@ function Projects(){
                 <a target='_blank' class='sticky z-[2] top-0 lg:top-32 [&>div>.shine]:hover:block w-full max-w-lg lg:max-w-3xl xl:max-w-6xl h-[60vh] lg:h-[75vh] lg:max-h-[600px] flex flex-col xl:flex-row justify-start gap-8 px-4 py-12 lg:px-6 xl:px-12 xl:py-24 bg-white rounded-xl' href='https://mints.utdallas.edu/'>
                     <div class='flex flex-col gap-4'>
                         <h3 class='font-medium text-xl xl:text-2xl 2xl:text-3xl text-black'>Research @ MINTS Laboratory</h3>
-                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Worked on projects dealing with electrical engineering/circuit design, data science, and machine learning, publishing 3 papers.</p>
+                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Worked on projects dealing with electrical engineering/circuit design, data science, and machine learning; published 3 papers.</p>
                     </div>
                     <div class='relative w-full h-[28vh] lg:h-[50vh] max-h-[380px] xl:w-2/3 flex-shrink-0 overflow-hidden rounded-md select-none shadow-lg shadow-neutral-500'>
                     <img
@@ -69,7 +69,7 @@ function Projects(){
                 <a target='_blank' class='sticky z-[2] top-0 lg:top-32 [&>div>.shine]:hover:block w-full max-w-lg lg:max-w-3xl xl:max-w-6xl h-[60vh] lg:h-[75vh] lg:max-h-[600px] flex flex-col xl:flex-row justify-start gap-8 px-4 py-12 lg:px-6 xl:px-12 xl:py-24 bg-white rounded-xl' href='https://metrohacks.dev/'>
                     <div class='flex flex-col gap-4'>
                         <h3 class='font-medium text-xl xl:text-2xl 2xl:text-3xl text-black'>MetroHacks</h3>
-                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Organized virtual international hackathons with over 2,500+ hackers from 30+ countries and $150,000+ in sponsorships.</p>
+                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Organized virtual international hackathons with over 2,500+ hackers from 30+ countries and $150,000+ in prizes by creating contest website (used CSS/JS) and managing sponsorship outreach.</p>
                     </div>
                     <div class='relative w-full h-[28vh] lg:h-[50vh] max-h-[380px] xl:w-2/3 flex-shrink-0 overflow-hidden rounded-md select-none shadow-lg shadow-neutral-500'>
                     <img
@@ -82,7 +82,7 @@ function Projects(){
                 <a target='_blank' class='sticky z-[2] top-0 lg:top-32 [&>div>.shine]:hover:block w-full max-w-lg lg:max-w-3xl xl:max-w-6xl h-[60vh] lg:h-[75vh] lg:max-h-[600px] flex flex-col xl:flex-row justify-start gap-8 px-4 py-12 lg:px-6 xl:px-12 xl:py-24 bg-white rounded-xl' href='https://opho.physoly.tech/'>
                     <div class='flex flex-col gap-4'>
                         <h3 class='font-medium text-xl xl:text-2xl 2xl:text-3xl text-black'>Online Physics Olympiad</h3>
-                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Hosted an international physics contest with 5,000+ competitors from 50+ countries and $10,000+ in sponsorships.</p>
+                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Hosted an international physics contest with 5,000+ competitors from 50+ countries and $10,000+ in prizes by maintaining the backend/servers/website (using PostgreSQL + python) and directing sponsorship outreach.</p>
                     </div>
                     <div class='relative w-full h-[28vh] lg:h-[50vh] max-h-[380px] xl:w-2/3 flex-shrink-0 overflow-hidden rounded-md select-none shadow-lg shadow-neutral-500'>
                     <img
@@ -108,7 +108,7 @@ function Projects(){
                 <a target='_blank' class='sticky z-[2] top-0 lg:top-32 [&>div>.shine]:hover:block w-full max-w-lg lg:max-w-3xl xl:max-w-6xl h-[60vh] lg:h-[75vh] lg:max-h-[600px] flex flex-col xl:flex-row justify-start gap-8 px-4 py-12 lg:px-6 xl:px-12 xl:py-24 bg-white rounded-xl' href='https://devpost.com/software/tripgpt'>
                     <div class='flex flex-col gap-4'>
                         <h3 class='font-medium text-xl xl:text-2xl 2xl:text-3xl text-black'>TripGPT</h3>
-                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Built a website that helps tourists plan vacations by using bootstrapping, FastAPI, and OpenAI's API.</p>
+                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Built a website that helps tourists plan vacations by using a bootstrapped frontend, FastAPI, and OpenAI's API.</p>
                     </div>
                     <div class='relative w-full h-[28vh] lg:h-[45vh] max-h-[350px] xl:w-2/3 flex-shrink-0 overflow-hidden rounded-md select-none shadow-lg shadow-neutral-500'>
                         <img
@@ -134,7 +134,7 @@ function Projects(){
                 <a target='_blank' class='sticky z-[2] top-0 lg:top-32 [&>div>.shine]:hover:block w-full max-w-lg lg:max-w-3xl xl:max-w-6xl h-[60vh] lg:h-[75vh] lg:max-h-[600px] flex flex-col xl:flex-row justify-start gap-8 px-4 py-12 lg:px-6 xl:px-12 xl:py-24 bg-white rounded-xl' href='https://www.joinnova.xyz/'>
                     <div class='flex flex-col gap-4'>
                         <h3 class='font-medium text-xl xl:text-2xl 2xl:text-3xl text-black'>nova</h3>
-                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Helped develop a machine learning algorithm to filter out noise in manufacturing data and worked with interns to design a mock dash/landing page for the startup.</p>
+                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Used RNNs built in PyTorch to filter out noise in manufacturing data and worked with interns to design a mock dash/landing page for the startup.</p>
                     </div>
                     <div class='relative w-full h-[30vh] lg:h-[50vh] max-h-[400px] xl:w-2/3 flex-shrink-0 overflow-hidden rounded-md select-none shadow-lg shadow-neutral-500'>
                         <img
@@ -163,7 +163,7 @@ function Projects(){
                 <a target='_blank' class='sticky z-[2] top-0 lg:top-32 [&>div>.shine]:hover:block w-full max-w-lg lg:max-w-3xl xl:max-w-6xl h-[60vh] lg:h-[75vh] lg:max-h-[600px] flex flex-col xl:flex-row justify-start gap-8 px-4 py-12 lg:px-6 xl:px-12 xl:py-24 bg-white rounded-xl' href='https://scibowlscrim.agno3.me'>
                     <div class='flex flex-col gap-4'>
                         <h3 class='font-medium text-xl xl:text-2xl 2xl:text-3xl text-black'>ScibowlScrim</h3>
-                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Developing a multiplayer scrimmage website for science bowlers. Made with Firebase, React, TailwindCSS, and Python (used for parsing past packets).</p>
+                        <p class='text-base xl:text-lg 2xl:text-xl text-neutral-700'>Developed a scrimmage website for science bowlers with Firebase, React, TailwindCSS, and Python (used for parsing past packets). 500,000+ tossups played with 7,500 unique visitors.</p>
                     </div>
                     <div class='relative w-full h-[30vh] lg:h-[50vh] max-h-[400px] xl:w-2/3 flex-shrink-0 overflow-hidden rounded-md select-none shadow-lg shadow-neutral-500'>
                     <img
